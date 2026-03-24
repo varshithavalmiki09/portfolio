@@ -1,0 +1,51 @@
+<svg width="960" height="640" viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Team Collaboration Illustration</title>
+  <desc id="desc">Abstract illustration of people collaborating around charts and ideas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff2df"/>
+      <stop offset="100%" stop-color="#ffe0c1"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff9f1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d84f31"/>
+      <stop offset="100%" stop-color="#f29d52"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="780" cy="110" r="70" fill="#ffd4ad"/>
+  <circle cx="160" cy="540" r="90" fill="#ffdcb9"/>
+
+  <rect x="170" y="130" width="620" height="370" rx="28" fill="url(#card)" stroke="#f0d5b8" stroke-width="3"/>
+
+  <rect x="220" y="190" width="210" height="140" rx="16" fill="#fff" stroke="#ecd8be"/>
+  <rect x="240" y="290" width="34" height="24" rx="6" fill="#f5e7d4"/>
+  <rect x="282" y="270" width="34" height="44" rx="6" fill="#f2d8b9"/>
+  <rect x="324" y="248" width="34" height="66" rx="6" fill="#efc69f"/>
+  <rect x="366" y="222" width="34" height="92" rx="6" fill="url(#accent)"/>
+
+  <rect x="470" y="190" width="270" height="140" rx="16" fill="#fff" stroke="#ecd8be"/>
+  <path d="M500 280 C540 220, 570 300, 615 245 C640 220, 685 280, 710 230" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="500" cy="280" r="8" fill="#d84f31"/>
+  <circle cx="615" cy="245" r="8" fill="#e8793f"/>
+  <circle cx="710" cy="230" r="8" fill="#f2a85b"/>
+
+  <circle cx="290" cy="420" r="42" fill="#fbe7d2"/>
+  <circle cx="290" cy="397" r="18" fill="#d98a5d"/>
+  <rect x="260" y="420" width="60" height="34" rx="16" fill="#d98a5d"/>
+
+  <circle cx="470" cy="420" r="42" fill="#e8f7f3"/>
+  <circle cx="470" cy="397" r="18" fill="#0f6c73"/>
+  <rect x="440" y="420" width="60" height="34" rx="16" fill="#0f6c73"/>
+
+  <circle cx="650" cy="420" r="42" fill="#fce7ec"/>
+  <circle cx="650" cy="397" r="18" fill="#af4b5f"/>
+  <rect x="620" y="420" width="60" height="34" rx="16" fill="#af4b5f"/>
+
+  <path d="M332 410 L428 410" stroke="#caa886" stroke-width="5" stroke-linecap="round"/>
+  <path d="M512 410 L608 410" stroke="#caa886" stroke-width="5" stroke-linecap="round"/>
+</svg>
