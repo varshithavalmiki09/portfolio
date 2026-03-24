@@ -11,7 +11,7 @@
     window.addEventListener('scroll', toggleScrolled, { passive: true });
   }
 
-  const currentPage = window.location.pathname.split('/').pop() || 'example.html';
+  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('nav a').forEach((link) => {
     const href = link.getAttribute('href');
     if (href === currentPage) {
